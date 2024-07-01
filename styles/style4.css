@@ -1,0 +1,23 @@
+.container {
+    height: 300px;
+    animation: randomWidth 10s infinite;
+    display: flex;
+}
+  
+.left {
+    min-height: 100px;
+    background-color: #f44336;
+}
+  
+.right {
+    background-color: #2973af;
+}
+
+@keyframes randomWidth {
+    0% { width: 200px; }
+    20% { width: 250px; }
+    40% { width: 300px; }
+    60% { width: 400px; }
+    80% { width: 600px; }
+    100% { width: 800px; }
+}
