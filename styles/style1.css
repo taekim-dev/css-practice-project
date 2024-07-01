@@ -19,12 +19,21 @@
     background-color: #efefef;
 }
 
-.outer1, .outer2, .outer3 {
+/* .outer1, .outer2, .outer3 {
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.outer1, .outer2, .outer3 {
+    position: relative;
 }
 
+
 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 2px solid #f44336;
 }
