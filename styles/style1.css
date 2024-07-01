@@ -2,20 +2,29 @@
     width: 300px;
     height: 300px;
     border: 2px solid;
+    background-color: #efefef;
 }
 
 .outer2 {
     width: 200px;
     height: 200px;
     border: 2px solid;
+    background-color: #efefef;
 }
 
 .outer3 {
     width: 400px;
     height: 400px;
     border: 2px solid;
+    background-color: #efefef;
+}
+
+.outer1, .outer2, .outer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inner {
-    
+    border: 2px solid #f44336;
 }
