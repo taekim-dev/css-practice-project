@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3 - truncate text in multiple lines(with ellipsis)</title>
+    <link rel="stylesheet" href="../styles/style3.css">
+</head>
+<body>
+    <h2>Question 3 - truncate text in multiple lines(with ellipsis)</h2>
+    <p>1. short text(1 line)</p>
+    <p>2. short text (2 lines)</p>
+    <p>3.3 lines(no overflow)</p>
+    <p>4.more than 3 lines</p>
+
+    <div class="example no-overflow">
+        <p class="three-line">This is a short text.</p>
+    </div>
+    <br>
+    <div class="example no-overflow">
+        <p class="three-line">This is a short text with two lines.</p>
+    </div>
+    <br>
+    <div class="example no-overflow">
+        <p class="three-line">This is a long text that with three lines but no overflow</p>
+    </div>
+    <br>
+    <div class="example overflow">
+        <p class="three-line">This is a very long text that will not fit in one line and should be truncated with ellipsis to indicate that there is more content than what is visible.</p>
+    </div>
+</body>
+</html>
