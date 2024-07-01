@@ -3,3 +3,8 @@
     border: 1px solid
 }
 
+.one-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
