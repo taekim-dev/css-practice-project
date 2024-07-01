@@ -10,10 +10,13 @@
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 25%;
+    /* flex: 0 1 25%; */ /* flex-grow: 0, flex-shrink: 1, flex-basis: 25% */
 }
   
 .right {
     background-color: #2973af;
     flex-grow: 1;
     flex-shrink: 1;
+    flex-basis: 0%
+    /* flex: 1 */ /* flex-grow: 1, flex-shrink: 1, flex-basis: 0% */
 }
