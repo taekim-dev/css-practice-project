@@ -11,6 +11,15 @@
     display: none;
 }
 
-.checkbox {
+.my-checkbox .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
 
+.my-checkbox input:checked + .checkbox {
+    background-color: green;
 }
