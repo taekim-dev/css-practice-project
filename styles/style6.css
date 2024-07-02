@@ -1,0 +1,16 @@
+.my-checkbox {
+    width: 200px;
+    height: 100px;
+    border: 1px solid gray;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.my-checkbox input {
+    display: none;
+}
+
+.checkbox {
+
+}
