@@ -9,6 +9,6 @@
 }
 .golden-ratio {
     background-color: #ccc;
-    width: 200px;
-    height: calc(200px / var(--golden-ratio));
+    width: 400px;
+    aspect-ratio: 16 / 9;
 }
