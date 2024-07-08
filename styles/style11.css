@@ -1,14 +1,19 @@
-:root {
-    --golden-ratio: 1.618;
+.class1 {
+    width: 50px;
+    height: 50px;
 }
 
-.container {
-    width: 500px;
-    height: 300px;
-    background-color: #E6E2D6;
+.class2 {
+    width: 100px;
+    height: 100px;
 }
-.golden-ratio {
-    background-color: #ccc;
+
+.class3 {
+    width: 200px;
+    height: 150px;
+}
+
+.class4 {
     width: 400px;
-    aspect-ratio: 16 / 9;
+    height: 10px;
 }
