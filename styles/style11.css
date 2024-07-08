@@ -1,3 +1,7 @@
+:root {
+    --golden-ratio: 1.618;
+}
+
 .container {
     width: 500px;
     height: 300px;
