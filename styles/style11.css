@@ -1,7 +1,7 @@
-/* .class1, .class2, .class3, .class4 {
-    position: relative;
+.class1, .class2, .class3, .class4 {
     overflow: hidden;
-} */
+    position: relative;
+}
 
 .class1 {
     width: 50px;
@@ -24,14 +24,10 @@
 }
 
 .image {
-    background-size: cover;
-}
-
-/* .image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
-} */
+}
