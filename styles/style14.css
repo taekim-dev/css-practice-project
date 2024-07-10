@@ -1,0 +1,14 @@
+.borderline {
+    border: 1px solid #000;
+}
+
+.hairline {
+    border: 1px solid #000;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+}
+
+.hairline-wrapper {
+    transform: scale(2);
+    transform-origin: 0 0;
+}
