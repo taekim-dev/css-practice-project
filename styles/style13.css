@@ -1,0 +1,10 @@
+.styled-list {
+    counter-reset: list-counter;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.styled-list li {
+    counter-increment: list-counter;
+    position: relative;
+}
