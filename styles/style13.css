@@ -1,10 +1,31 @@
-.styled-list {
-    counter-reset: list-counter;
-    list-style-type: none;
-    padding-left: 0;
+ol.custom-counter {
+    counter-reset: item;
 }
 
-.styled-list li {
-    counter-increment: list-counter;
+ol.custom-counter > li {
+    display: block;
     position: relative;
+}
+
+ol.custom-counter > li::before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+    position: absolute;
+    left: -1em;
+}
+
+ol.custom-counter ol {
+    counter-reset: item;
+}
+
+ol.custom-counter ol > li {
+    display: block;
+    position: relative;
+}
+
+ol.custom-counter ol > li::before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+    position: absolute;
+    left: -2em;
 }
