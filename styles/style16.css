@@ -1,7 +1,10 @@
 .container {
-  
+  display: flex;
+  flex-wrap: wrap;
+  width: 50px; /* 50px 120px 250px 400px*/
 }
 .item {
+  flex: 1 1 100px;
   background-color: #7aa4f0;
   height: 50px;
   margin: 5px;
