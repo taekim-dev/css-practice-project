@@ -1,0 +1,20 @@
+:root {
+  --radius: 50px;
+  --thickness: 10px;
+  --color: #f44336;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.piechart {
+  --size: calc(var(--radius) * 2);
+  --background-color: #e0e0e0;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background: conic-gradient(var(--color) calc(var(--percentage) * 1%), var(--background-color) 0);
+  mask: radial-gradient(closest-side, transparent calc(100% - var(--thickness)), black 0);
+}
