@@ -1,12 +1,12 @@
 .container {
-  width: 50px;
+  width: 200px;
   border: 1px solid lightgray;
 }
+
 .border {
   line-height: 1.5;
   margin: 5px;
-  height: auto;
-  border: 1px solid #7aa4f0 ;
-  white-space: normal;
+  border: 1px solid #7aa4f0;
+  box-decoration-break: clone;
+  padding: 0 5px;
 }
-
