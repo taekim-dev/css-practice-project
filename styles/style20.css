@@ -1,3 +1,19 @@
-input[type="range"] {
-  accent-color: #F44336;
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  background-color: #555;
+  color: #fff;
+  padding: 20px 10px;
+}
+.body {
+  padding: 20px 10px;
+  flex: 1;
+}
+.footer {
+  background-color: #555;
+  color: #fff;
+  padding: 20px 10px;
 }
