@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    width: 330px; /* This is flexible */
+  }
+  
+.item {
+    background-color: #6ea8fe;
+    height: 100px;
+}
+  
