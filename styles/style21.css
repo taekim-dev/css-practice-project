@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+}
+.header, .footer {
+    background-color: #b3e5fc;
+    padding: 10px;
+    text-align: center;
+}
+.content {
+    display: flex;
+    background-color: #ffffff;
+}
+.left-sidebar, .right-sidebar {
+    width: 100px;
+    background-color: #e0dcd7;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.body {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.footer {
+    background-color: #b3e5fc;
+}
