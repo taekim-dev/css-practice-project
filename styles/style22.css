@@ -1,3 +1,11 @@
 .item {
     background-color: #BFEBFE;
 }
+
+.container {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
