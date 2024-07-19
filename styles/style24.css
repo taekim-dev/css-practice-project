@@ -7,11 +7,11 @@
 
 .title {
     text-align: center;
-    /* font-size: calc(
+    font-size: calc(
         var(--min-font-size) + 
         (var(--max-font-size) - var(--min-font-size)) * 
         ((100vw - var(--min-viewport-width)) / (var(--max-viewport-width) - var(--min-viewport-width)))
-    ); */
+    );
 }
 
 @media (max-width: 200px) {
